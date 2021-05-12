@@ -1,0 +1,99 @@
+===============
+Tourney
+===============
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+random_player vs minimax_player (Winner: random_player) 
+random_player vs minimax_player (Winner: random_player) 
+random_player vs minimax_player (Winner: random_player) 
+random_player vs minimax_player (Winner: random_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: random_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: random_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+
+Ranking:
+rush_player 9
+random_player 9
+minimax_player 6
+
+===============
+Tourney
+===============
+random_player vs rush_player (Winner: rush_player) 
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+random_player vs minimax_player (Winner: random_player) 
+random_player vs minimax_player (Winner: minimax_player) 
+random_player vs minimax_player (Winner: minimax_player) 
+random_player vs minimax_player (Winner: random_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+
+Ranking:
+minimax_player 10
+rush_player 9
+random_player 5
+
+===============
+Tourney
+===============
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+random_player vs rush_player (Winner: random_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+rush_player vs random_player (Winner: rush_player) 
+random_player vs minimax_player (Winner: minimax_player) 
+random_player vs minimax_player (Winner: minimax_player) 
+random_player vs minimax_player (Winner: minimax_player) 
+random_player vs minimax_player (Winner: random_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+minimax_player vs random_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+rush_player vs minimax_player (Winner: minimax_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+minimax_player vs rush_player (Winner: rush_player) 
+
+Ranking:
+minimax_player 11
+rush_player 8
+random_player 5
+
