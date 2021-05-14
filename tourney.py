@@ -10,7 +10,7 @@ PLAYERS = [	'random_player',
 
 #TODO: MAX_TIME Not implemented yet
 MAX_TIME = 5	# Max time (seconds) of execution of play function per player
-TOT_GAMES = 4 	# Tot games between players per color
+TOT_GAMES = 5 	# Tot games between players per color
 
 # Log customization
 PRINT_LOG = True
