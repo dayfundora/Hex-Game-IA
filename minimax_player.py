@@ -35,7 +35,7 @@ def play(game, player):
 	# Code Here
 	# Random player implementation (just delete it)
 
-	return minimax(game, player, 3, heuristic, moves)
+	return minimax(game, player, 3, heuristic_coneccted, moves)
 
 
 def moves(game, player):
@@ -43,9 +43,54 @@ def moves(game, player):
 		for y in range(game.size):
 			if game[x, y] == EMPTY:
 				yield (x, y)
+def heuristic_coneccted(game, player):
+    oponent='W' if player=='B' else 'B'
+    
+    ccp=countBetterConnected(game,player)
+    cco=countBetterConnected(game,oponent)
+    
+    return (cco-ccp)/max(ccp,cco)
 
+def getRelevantNeighbors(game, player, x, y):
+    relevantNeighborhoodWhite = [(-1,1),(0,1),(1,-1),(0,-1)]
+    relevantNeighborhoodBlack = [(1,-1),(1,0),(-1,-1),(-1,0)]
+    neighborhood=[]
+    
+    if player == 'W':
+        neighborhood=relevantNeighborhoodWhite
+    else:
+        neighborhood=relevantNeighborhoodBlack
+    for neig in neighborhood:
+        nx, ny = x+ neig[0], y + neig[1]	
+        if game.checkInside(nx, ny):
+            yield nx, ny
 
-def heuristic(game, player):
-	return 0
+def countBetterConnected(game, player):
+    counted = set()
+    connected = 0
+    
+    for i in range(game.size):
+        for j in range(game.size):
+            if game[i,j] == player:
+                neighbors = getRelevantNeighbors(game,player,i,j)
+                for n in neighbors:
+                    r, c= n
+                    if game[i,j] == player and n not in counted:
+                        counted.add((r,c))
+                        connected += 1
+    return connected
 
-
+def countConnected(game, player):
+    counted = set()
+    connected = 0
+    
+    for i in range(game.size):
+        for j in range(game.size):
+            if game[i,j] == player:
+                neighbors = game.neighbour(i,j)
+                for n in neighbors:
+                    r, c= n
+                    if game[i,j] == player and n not in counted:
+                        counted.add((r,c))
+                        connected += 1
+    return connected
